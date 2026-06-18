@@ -64,9 +64,9 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   name: 'Muhammad Raza',
-  role: 'Senior iOS Engineer',
+  role: 'Software Engineer',
   tagline:
-    'Senior iOS engineer with 10+ years shipping mobile apps used worldwide. Toptal verified, based in Berlin.',
+    'Software engineer with 10+ years building iOS apps and full-stack products used worldwide. Toptal verified, based in Berlin.',
   location: 'Berlin, Germany',
   email: 'mrazam110@gmail.com',
   phone: '',
@@ -77,10 +77,10 @@ export const siteConfig: SiteConfig = {
   accentRGBDark: '59 130 246', // #3B82F6
 
   heroRotatingWords: [
+    'iOS Developer',
+    'Full-Stack Developer',
     'Swift & SwiftUI',
-    'iOS Architecture',
     'AI-Assisted Development',
-    'Full-Stack',
   ],
 
   socials: [

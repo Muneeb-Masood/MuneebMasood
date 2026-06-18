@@ -13,8 +13,8 @@ export function Contact() {
             Let&apos;s build something
           </h3>
           <p className="mx-auto mt-3 max-w-xl text-secondary">
-            I&apos;m open to senior and lead iOS roles, remote or hybrid. Email is the fastest way to
-            reach me, or find me on the platforms below.
+            I&apos;m open to senior and lead engineering roles, remote or hybrid. Email is the fastest
+            way to reach me, or find me on the platforms below.
           </p>
 
           <a

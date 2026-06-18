@@ -19,15 +19,15 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — ${siteConfig.role}`,
-    template: `%s — ${siteConfig.name}`,
+    default: `${siteConfig.name} · ${siteConfig.role}`,
+    template: `%s · ${siteConfig.name}`,
   },
   description: siteConfig.tagline,
   keywords: [siteConfig.role, siteConfig.name, 'iOS', 'Swift', 'SwiftUI', 'portfolio'],
   authors: [{ name: siteConfig.name }],
   openGraph: {
     type: 'website',
-    title: `${siteConfig.name} — ${siteConfig.role}`,
+    title: `${siteConfig.name} · ${siteConfig.role}`,
     description: siteConfig.tagline,
     url: siteConfig.url,
     siteName: siteConfig.name,
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${siteConfig.name} — ${siteConfig.role}`,
+    title: `${siteConfig.name} · ${siteConfig.role}`,
     description: siteConfig.tagline,
     images: ['/og-image.png'],
   },

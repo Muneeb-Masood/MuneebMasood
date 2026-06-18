@@ -75,7 +75,7 @@ export const portfolio: PortfolioData = {
     paragraphs: [
       'I build and scale iOS apps that thousands of people use every day. Over the past decade I have worked across fintech, healthcare, messaging, and consumer products, usually as the person responsible for the app end to end.',
       'My core is Swift, SwiftUI, UIKit, and Combine, and I know my way around clean architecture and CI/CD. Lately I have folded AI-assisted workflows into how I ship, including the Claude API and Claude Code. When an idea needs a web home, I build it full-stack in Next.js.',
-      'I am a Toptal verified expert based in Berlin, open to senior and lead iOS roles, remote or hybrid.',
+      'I am a Toptal verified expert based in Berlin, open to senior and lead engineering roles, remote or hybrid.',
     ],
     highlights: [
       { label: 'Experience', value: '10+ years' },
