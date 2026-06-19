@@ -12,7 +12,9 @@ make it yours by editing two files. No build tooling to learn, no backend.
 ## Why use this
 
 - Your content lives in two typed files. You never touch component code.
-- Dark first, with a light toggle and one accent color you change in one line.
+- Editorial, type-led design (serif display, mono technical accents) in light and
+  dark, following the system preference, with a manual toggle and one accent color
+  you change in one line.
 - Sections you can switch on or off: about, skills, experience, projects,
   education, certifications, contact.
 - Animations that stay out of the way and respect reduced-motion.
@@ -70,6 +72,8 @@ tagline: 'One line about you.',
 email: 'you@example.com',
 url: 'https://you.github.io',
 resumePath: '/cv.pdf',      // file in /public, or '' to hide the button
+repoUrl: 'https://github.com/you/you.github.io', // footer link, or '' to hide
+toptalBadgeUrl: '',         // Toptal profile URL, or '' to hide the badge
 
 accentRGB: '37 99 235',     // brand color as "R G B" (light mode)
 accentRGBDark: '59 130 246',// brand color in dark mode
