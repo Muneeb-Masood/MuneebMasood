@@ -92,10 +92,12 @@ export const siteConfig: SiteConfig = {
   accentRGBDark: '59 130 246', // #3B82F6
 
   heroRotatingWords: [
+    'Software Engineer',
+    'AI',
+    'AI integration',
     'Flutter',
     'React',
     'Node.js',
-    'AI Integration',
   ],
 
   socials: [
