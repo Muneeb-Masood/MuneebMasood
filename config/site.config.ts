@@ -84,6 +84,7 @@ export const siteConfig: SiteConfig = {
   phone: '03320820125',
   url: 'https://muneeb-masood.github.io',
   resumePath: '/cv.pdf',
+  
   repoUrl: '',
   toptalBadgeUrl: '',
 
