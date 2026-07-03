@@ -92,6 +92,6 @@ Leave these alone. They are the engine:
 - `next.config.js`, `tailwind.config.ts`, `package.json`
 - `.github/workflows/`
 
-After the files are personalized, you have to push it to your default branch. But before pushing it you have to do two things. First, go to the actions tab of the forked repo and from there you have to allow the workflows of the forked branch. Second, go to settings -> select pages and then change the dropdown from "Deploy from a branch" to GitHub Actions. This allows the workflow to communicate with github pages.
+After the files are personalized, you have to push it to your default branch. But before pushing it you have to do two things. First, go to the actions tab of the forked repo and from there you have to allow the workflows of the forked repo. Second, go to settings -> select pages and then change the dropdown from "Deploy from a branch" to GitHub Actions. This allows the workflow to communicate with github pages.
 
 Now you are good to go, push the code to your default branch. The included GitHub Actions workflow builds and deploys to GitHub Pages on its own.
