@@ -188,6 +188,18 @@ export const portfolio: PortfolioData = {
       href: 'https://play.google.com/store/apps/details?id=com.newuniqueapp.app&hl=en',
       tech: ['Flutter', 'Dart', 'AI integration', 'Android', 'iOS', 'Productivity'],
     },
+    {
+      name: 'AuroGrade (Launching Soon)',
+      description:'An automated paper checker for O/A level students. It uses AI to grade papers and provide feedback on answers, helping students improve their performance and understanding of the subject matter.',
+      href: '#',
+      tech: ['Flutter', 'AI integration', 'Android', 'iOS', 'Education'],
+    },
+    {
+      name: 'Campus Ride (Launching Soon)',
+      description:'A carpool app for university students that helps them find and share rides with their peers. It aims to reduce traffic congestion, save money, and promote sustainable transportation on campus.',
+      href: '#',
+      tech: ['Flutter', 'AI integration', 'Android', 'iOS', 'Productivity'],
+    },
   ],
 
   education: [
