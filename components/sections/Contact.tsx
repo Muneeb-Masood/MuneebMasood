@@ -1,9 +1,10 @@
-import { Mail } from 'lucide-react';
+import { Download, Mail } from 'lucide-react';
 import { Section } from '@/components/ui/Section';
 import { Reveal } from '@/components/ui/Reveal';
 import { siteConfig } from '@/config/site.config';
 import { SocialIcon } from '@/components/ui/SocialIcon';
 import { ToptalBadge } from '@/components/ui/ToptalBadge';
+import { asset } from '@/lib/asset';
 
 export function Contact() {
   return (
@@ -13,17 +14,30 @@ export function Contact() {
           Let&apos;s build something.
         </h3>
         <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground text-pretty md:text-lg">
-          I&apos;m open to senior and lead engineering roles, remote or hybrid. Email is the fastest
+          I&apos;m open to software engineering roles, remote or hybrid. Email is the fastest
           way to reach me, or find me on the platforms below.
         </p>
 
-        <a
-          href={`mailto:${siteConfig.email}`}
-          className="mt-8 inline-flex items-center gap-2 rounded-md bg-accent-solid px-6 py-3 text-sm font-semibold text-accent-foreground transition-transform hover:-translate-y-0.5 cursor-pointer"
-        >
-          <Mail className="h-4 w-4" aria-hidden="true" />
-          {siteConfig.email}
-        </a>
+        <div className="mt-8 flex flex-wrap items-center gap-3">
+          <a
+            href={`mailto:${siteConfig.email}`}
+            className="inline-flex items-center gap-2 rounded-md bg-accent-solid px-6 py-3 text-sm font-semibold text-accent-foreground transition-transform hover:-translate-y-0.5 cursor-pointer"
+          >
+            <Mail className="h-4 w-4" aria-hidden="true" />
+            {siteConfig.email}
+          </a>
+          {siteConfig.resumePath && (
+            <a
+              href={asset(siteConfig.resumePath)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-md border border-border px-6 py-3 text-sm font-medium transition-colors hover:border-accent hover:text-accent cursor-pointer"
+            >
+              <Download className="h-4 w-4" aria-hidden="true" />
+              Download CV
+            </a>
+          )}
+        </div>
 
         <div className="mt-8 flex items-center gap-1">
           {siteConfig.socials.map((s) => (

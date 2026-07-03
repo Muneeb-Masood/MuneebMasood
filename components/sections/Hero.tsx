@@ -1,11 +1,10 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Download, MapPin } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import { siteConfig } from '@/config/site.config';
 import { TypingText } from '@/components/ui/TypingText';
 import { SocialIcon } from '@/components/ui/SocialIcon';
-import { asset } from '@/lib/asset';
 
 const fade = {
   hidden: { opacity: 0, y: 18 },
@@ -85,17 +84,6 @@ export function Hero() {
           >
             Get in touch
           </a>
-          {siteConfig.resumePath && (
-            <a
-              href={asset(siteConfig.resumePath)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-md border border-border px-5 py-2.5 text-sm font-medium transition-colors hover:border-accent hover:text-accent cursor-pointer"
-            >
-              <Download className="h-4 w-4" aria-hidden="true" />
-              Download CV
-            </a>
-          )}
         </motion.div>
 
         <motion.div
@@ -103,7 +91,7 @@ export function Hero() {
           initial="hidden"
           animate="show"
           variants={fade}
-          className="mt-8 flex items-center gap-4"
+          className="mt-8 flex flex-wrap items-center gap-4"
         >
           <div className="flex items-center gap-1">
             {siteConfig.socials.map((s) => (

@@ -2,11 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Download } from 'lucide-react';
 import { siteConfig, type SectionKey } from '@/config/site.config';
 import { SocialIcon } from './SocialIcon';
 import { ThemeToggle } from './ThemeToggle';
-import { asset } from '@/lib/asset';
 
 const labels: Record<SectionKey, string> = {
   about: 'About',
@@ -127,18 +125,6 @@ export function Rail() {
       </div>
 
       <motion.div custom={4} initial="hidden" animate="show" variants={fade} className="mt-12">
-        {siteConfig.resumePath && (
-          <a
-            href={asset(siteConfig.resumePath)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2 text-sm font-medium text-secondary transition-colors hover:text-accent cursor-pointer"
-          >
-            <Download className="h-4 w-4 transition-transform group-hover:translate-y-0.5" aria-hidden="true" />
-            Download CV
-          </a>
-        )}
-
         <div className="mt-6 flex items-center gap-1">
           {siteConfig.socials.map((s) => (
             <a
