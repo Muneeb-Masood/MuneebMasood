@@ -74,43 +74,38 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Muhammad Raza Master',
-  logoText: 'Raza',
-  role: 'Senior iOS & Full-Stack Engineer',
+  name: 'Muneeb Masood',
+  logoText: 'Muneeb',
+  role: 'Software Engineer',
   tagline:
-    'I build high-performance iOS applications and AI-driven full-stack products. 13+ years of engineering experience, Toptal verified, and based in Berlin.',
-  location: 'Berlin, Germany',
-  email: 'mrazam110@gmail.com',
-  phone: '',
-  url: 'https://mrazam110.github.io',
+    'Software engineer from Karachi, focused on React, Flutter, Node.js, and AI-powered products. I like shipping useful work and keeping it maintainable.',
+  location: 'Karachi, Pakistan',
+  email: 'muneebmasood789@gmail.com',
+  phone: '03320820125',
+  url: 'https://muneeb-masood.github.io',
   resumePath: '/cv.pdf',
-  repoUrl: 'https://github.com/mrazam110/mrazam110.github.io',
-  toptalBadgeUrl: 'https://www.toptal.com/developers/resume/muhammad-raza-master#XM93lX',
+  repoUrl: '',
+  toptalBadgeUrl: '',
 
   accentRGB: '37 99 235', // #2563EB
   accentRGBDark: '59 130 246', // #3B82F6
 
   heroRotatingWords: [
-    'iOS Developer',
-    'Full-Stack Developer',
-    'Swift & SwiftUI',
-    'AI-Assisted Development',
+    'Flutter',
+    'React',
+    'Node.js',
+    'AI Integration',
   ],
 
   socials: [
-    { label: 'GitHub', href: 'https://github.com/mrazam110', icon: 'github' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/mrazam110', icon: 'linkedin' },
-    { label: 'Medium', href: 'https://medium.com/@mrazam110', icon: 'medium' },
+    { label: 'GitHub', href: 'https://github.com/Muneeb-Masood', icon: 'github' },
     {
-      label: 'Toptal',
-      href: 'https://www.toptal.com/developers/resume/muhammad-raza-master',
-      icon: 'toptal',
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/muneeb-masood-124981279',
+      icon: 'linkedin',
     },
-    {
-      label: 'Stack Overflow',
-      href: 'https://stackoverflow.com/users/3847946/muhammad-raza',
-      icon: 'stackoverflow',
-    },
+    { label: 'Upwork', href: 'https://www.upwork.com/freelancers/~0146e3ae2b30624875', icon: 'globe' },
+    { label: 'Email', href: 'mailto:muneebmasood789@gmail.com', icon: 'mail' },
   ],
 
   sections: {
@@ -129,7 +124,6 @@ export const siteConfig: SiteConfig = {
     'experience',
     'projects',
     'education',
-    'certifications',
     'contact',
   ],
 };
